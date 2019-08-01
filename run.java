@@ -20,7 +20,7 @@ public class Run extends Logic {
 				System.out.println("increase value by:");
 				int d = hn.nextInt();
 				if(d>3){
-				    System.out.println("vaule entered is out of bounds(must be less than 3)... sorry!rerun to replay");
+				    System.out.println("vaule entered is out of bounds(must be less than 3)... sorry!re-run to replay");
 				    System.exit(0);
 				}
 				
@@ -44,7 +44,7 @@ public class Run extends Logic {
 				System.out.println("increase value by:");
 				int d = hn.nextInt();
 				if(d>3){
-				    System.out.println("vaule entered is out of bounds(must be less than 3)... sorry!rerun to replay");
+				    System.out.println("vaule entered is out of bounds(must be less than 3)... sorry!re-run to replay");
 				    System.exit(0);
 				}
 				
@@ -57,7 +57,7 @@ public class Run extends Logic {
 			if(i >= 21) {
 				k = false;
 				z=21;
-				System.out.println("You Win");
+				System.out.println("You Win... re-run to play again");
 			}
 			}
 			
