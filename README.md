@@ -1,3 +1,3 @@
 # twenty-one
-sample game
+sample game,
 this game was made to learn the basics of git.
