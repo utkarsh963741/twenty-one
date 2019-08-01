@@ -4,9 +4,10 @@ public class Run extends Logic {
 
 	public static void main(String[] args) {
 
-		inp();
+	    Scanner hn = new Scanner(System.in);
+		imp();
 		int i = 0;
-		int z;
+		int z=0;
 		boolean k =true;
 		String s = "0";
 
@@ -15,27 +16,35 @@ public class Run extends Logic {
 			if(i == 0) {
 				System.out.println("0");
 				z = move(0);
-				s = s + " " + z;
 				i = z;
+				int d = hn.nextInt();
+			z = z + d;
+			
+			i = z;
+			if(i >= 21) {
+				k = false;
+				z=21;
+			}
 			}
 			else { 
 				z = move(z);
-				s = s + " " + z;
 				i = z;
-			}
-			d = sc.nextInt();
-			if(d > 3){
-				System.out.println("Error");
-			}
-			else {
-				z = z + d;
-			}
-			if(i >= 21) {
-				k = False;
-			}
-			s = s + " " + z;
+				if(i >= 21) {
+				    System.out.println("You Lose");
+				}
+				int d = hn.nextInt();
+			z = z + d;
+			
 			i = z;
-			System.out.println(s);
+			if(i >= 21) {
+				k = false;
+				z=21;
+				System.out.println("You Win");
+			}
+			}
+			
+			System.out.println(z);
 		}
+		hn.close();
 	}
 }

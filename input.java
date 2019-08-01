@@ -1,8 +1,9 @@
 import java.util.Scanner;
 
 public class input {
-	public void imp() {
-		system.out.println("Please Enter your Name")
-		String = sc.nextInt();
+	public static void imp() {
+	    Scanner sc= new Scanner(System.in);
+		System.out.println("Please Enter your Name");
+		String name = sc.nextLine();
 	}
 }
