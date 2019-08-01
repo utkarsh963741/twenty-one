@@ -17,8 +17,17 @@ public class Run extends Logic {
 				System.out.println("0");
 				z = move(0);
 				i = z;
+				System.out.println("increase value by:");
 				int d = hn.nextInt();
+				if(d>3){
+				    System.out.println("vaule entered is out of bounds(must be less than 3)... sorry!rerun to replay");
+				    System.exit(0);
+				}
+				
 			z = z + d;
+			    
+			System.out.println("computer's move ");
+			System.out.println("value now at:"+z);
 			
 			i = z;
 			if(i >= 21) {
@@ -30,10 +39,19 @@ public class Run extends Logic {
 				z = move(z);
 				i = z;
 				if(i >= 21) {
-				    System.out.println("You Lose");
+				    System.out.println("Computer Wins");
 				}
+				System.out.println("increase value by:");
 				int d = hn.nextInt();
+				if(d>3){
+				    System.out.println("vaule entered is out of bounds(must be less than 3)... sorry!rerun to replay");
+				    System.exit(0);
+				}
+				
 			z = z + d;
+			System.out.println("computer's move");
+			System.out.println("value now at:"+z);
+            
 			
 			i = z;
 			if(i >= 21) {
@@ -43,7 +61,6 @@ public class Run extends Logic {
 			}
 			}
 			
-			System.out.println(z);
 		}
 		hn.close();
 	}
