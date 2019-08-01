@@ -1,0 +1,28 @@
+******************   wELCOME   ******************
+
+
+-- tHE gOAL oF tHIS gAME iS tO mAKE yOUR oPPONENT
+   rEACH tHE nO. 21 
+           
+	tHE pERSON tHAT rEACHES 21 fIRST wILL bE dECLARED tHE "LOSER"
+
+-- the game starts from the no. 0
+-- the person that starts the round can either increment the value by 1 , 2 or 3 
+   then the opponent (here the computer) will be faced wiyh the similar choice
+
+
+  eg:   game1 initial=0
+		p1: 3
+			p2: 5
+		p1: 7
+			p2: 10
+		p1: 13
+			p2: 16
+		p1: 17
+			p2: 19
+		p1: 20
+			p2: 21
+	
+	*****   p1 WINS    *****
+
+*************** HAVE FUN ***************
