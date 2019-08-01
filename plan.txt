@@ -1,0 +1,6 @@
+List of Classes:
+* Gui
+* Run
+* Logic > 1 Random method selector
+	> 2 Method 1 : multiples of 4
+	> 3 Method 2 : Random 
